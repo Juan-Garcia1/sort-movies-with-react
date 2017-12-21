@@ -5,7 +5,7 @@ const Movie = ({ movie: { poster, title, genre, rating } }) => {
     <figure>
     <img src={poster} alt={title}/>
     <figcaption>
-    <p>{genre}</p>
+    <p>{genre.join(' ')}</p>
     <div className="rating">
     <i className="fa fa-heart" />
     <h4>{rating}</h4>

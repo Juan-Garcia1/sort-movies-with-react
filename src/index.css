@@ -72,6 +72,7 @@ figure figcaption p {
   text-transform: capitalize;
   font-size: .80em;
   margin-bottom: 0;
+  margin-top: 0;
   color: var(--primary);
 }
 
